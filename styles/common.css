@@ -5,7 +5,7 @@ body {
 }
 
 /* Navigation Styles */
-.container > .header-wrapper {
+.header-wrapper {
   display: flex;
   justify-content: space-between;
   height: 70px;
@@ -17,20 +17,20 @@ body {
   position: fixed;
   opacity: 0.5;
 }
-.container > .header-wrapper:hover {
+.header-wrapper:hover {
   height: 80px;
 }
-.container > .header-wrapper > .navigation-wrapper {
+.header-wrapper > .navigation-wrapper {
   display: flex;
   justify-content: flex-end;
 }
-.container > .header-wrapper > .navigation-wrapper > .nav-links {
+.header-wrapper > .navigation-wrapper > .nav-links {
   width: 100px;
   margin: 10px 10px 10px 10px;
   padding: 20px 10px 10px 10px;
   text-align: center;
 }
-.container > .header-wrapper > .navigation-wrapper > .nav-links a {
+.header-wrapper > .navigation-wrapper > .nav-links a {
   border-top: 5px solid transparent;
   border-top: 5px solid transparent;
   margin: 5px 10px;
@@ -40,7 +40,7 @@ body {
   color: #099;
   transition: 0.5s;
 }
-.container > .header-wrapper > .navigation-wrapper > .nav-links a:hover {
+.header-wrapper > .navigation-wrapper > .nav-links a:hover {
   border-top: 5px solid #cc0;
   border-bottom: 5px solid #cc0;
   color: #4c0099;
@@ -48,7 +48,7 @@ body {
 }
 
 /* Logo Style */
-.container>.header-wrapper>.logo{
+.header-wrapper>.logo{
   background-image: url('../images/Logo/Graffiti\ TZ.svg');
   width: 80px;
   height: 60px;
