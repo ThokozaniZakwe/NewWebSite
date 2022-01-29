@@ -17,5 +17,31 @@
     background-size: 100%;
     transform: skewY(-6deg);
     transform-origin: top left;
-    /* filter: brightness(50%); */
+}
+
+/* Main Section Styles */
+.container>.main-content-wrapper{
+    margin-top: 20px;
+    padding-left: 160px;
+    padding-right: 160px;
+    color: black;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+}
+.container>.main-content-wrapper h1{
+    text-align: center;
+    /* text-decoration: underline; */
+    color: #5bc0de;
+}
+.container>.main-content-wrapper p::first-letter{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.container>.main-content-wrapper img{
+    float: left;
+    margin: 0px 30px 30px 0px;
+    width: 400px;
+    /* border: 2px solid #5bc0de; */
+    border: 5px solid goldenrod;
+    border-radius: 3px;
 }
