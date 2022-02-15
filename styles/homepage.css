@@ -1,7 +1,8 @@
 /* Image Section Styles */
-.container > .image-section {
+.container>.image-section {
   background-image: url(../images/keyboardandglasses.jpg);
   height: 600px;
+  width: 100%;
   padding: 100px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,25 +11,29 @@
   align-items: baseline;
   font-size: 2em;
 }
-.container > .image-section div {
+
+.container>.image-section div {
   padding: 1em;
   border-radius: 5px;
   width: 400px;
 }
-.container > .image-section > .top-heading {
+
+.container>.image-section>.top-heading {
   background-color: tomato;
   margin-bottom: 1.5em;
 }
-.container > .image-section > .middle-heading {
+
+.container>.image-section>.middle-heading {
   background-color: yellowgreen;
   margin-bottom: 1.5em;
 }
-.container > .image-section > .bottom-heading {
+
+.container>.image-section>.bottom-heading {
   background-color: #f39;
 }
 
 /* Services Section Styles */
-.container > .services {
+.container>.services {
   height: 600px;
   width: 100%;
   font-family: "Ubuntu Condensed", sans-serif;
@@ -39,7 +44,8 @@
   justify-content: space-around;
   align-items: center;
 }
-.container > .services div {
+
+.container>.services div {
   background-color: #f4f5e2;
   color: #333;
   width: 300px;
@@ -53,11 +59,13 @@
   font-size: 1.5em;
   box-shadow: -2px -1px 36px 11px rgba(128, 120, 120, 0.53);
 }
-.container > .services div:hover {
+
+.container>.services div:hover {
   background-color: coral;
   color: white;
 }
-.container > .services > div .fas {
+
+.container>.services>div .fas {
   font-size: 3rem;
   margin-top: -50px;
   /* border: 1px solid white; */
@@ -67,13 +75,16 @@
   background-color: #f4f5e2;
   transition: 0.5s;
 }
-.container > .services > div .fas:hover {
+
+.container>.services>div .fas:hover {
   background-color: coral;
 }
-.container > .services > div h3 {
+
+.container>.services>div h3 {
   text-decoration: underline;
 }
-.container > .services > div p {
+
+.container>.services>div p {
   margin-top: -10px;
   padding: 1.75em;
   font-size: 0.8em;
