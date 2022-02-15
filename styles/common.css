@@ -62,3 +62,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.navigation-small-screen-wrapper {
+  display: none;
+}
